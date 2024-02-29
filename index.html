@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/public/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Catcher</title>
+</head>
+
+<body>
+  <header>
+    <p>Phaser Demo | Apple Catcher</p>
+  </header>
+  <main>
+    <canvas id="gameCanvas"></canvas>
+    <div id="gameStartDiv" class="gameUI">
+      <h1>Apple Catcher</h1>
+      <p>你有30秒的时间来摘苹果</p>
+      <p>摘到10个苹果将获胜</p>
+      <p>没摘到10个苹果将失败</p>
+      <p>点击开始</p>
+      <button id="gameStartBtn"><p>start</p></button>
+    </div>
+    <div id="gameEndDiv" class="gameUI">
+      <p>游戏结束</p>
+      <h1>你的 <span id="gameWinLoseSpan"></span></h1>
+      <h1>最后得分： <span id="gameEndScoreSpan"></span></h1>
+      <p>刷新页面重新开始</p>
+    </div>
+  </main>
+  <footer>
+    <p>Created By Niuran 2024</p>
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
